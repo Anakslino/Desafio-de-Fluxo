@@ -1,4 +1,4 @@
-mport java.util.Scanner;
+import java.util.Scanner;
 
 
     class ParametrosInvalidosException extends Exception {
@@ -7,7 +7,7 @@ mport java.util.Scanner;
         }
     }
 
-    public class teste {
+    public class Contador {
         public static void main(String[] args) {
             Scanner terminal = new Scanner(System.in);
             System.out.println("Digite o primeiro parâmetro");
